@@ -15,12 +15,15 @@ draw = function(){
 fill(255,255,255);
 ellipse(270,100,45,90); //highlight
 
-  if (mouseClicked) {
-  
-    else(){text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+ 
+  if (mousePressed) {
+  text("answer",176,200);
   }
-  
+  else {
+    textSize(17);
+   text("Click and hold to see your future!", 80, 220);
+    
+  }
 };
 
 mouseClicked = function(){
