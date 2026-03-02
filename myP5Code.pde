@@ -39,7 +39,7 @@ if (answer == 4){
 
 if (answer == 5){
   textSize(10);
-  text ("You get transported into The Last of Us but as a side character , Good luck", 30,200);
+  text ("You get transported into The Last of Us but as a side character, Good luck", 30,200);
 } 
 // fortunes
   }
