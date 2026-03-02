@@ -2,6 +2,10 @@
 
 body {
   background-image: url("https://media.istockphoto.com/id/645429202/photo/purple-curtains-on-stage.jpg?s=612x612&w=0&k=20&c=G8_NmPbxlfpilwYFD3IjKjjPPFXZzC4a1Tiw__hdzFs=");
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
