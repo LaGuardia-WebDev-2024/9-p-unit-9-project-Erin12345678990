@@ -1,8 +1,15 @@
+Preload = function
+
+
+
+
+
 setup = function() {
     size(400, 400);
 };
 
 var answer = 1;
+
 
 draw = function(){
   background(	195, 177, 225);
@@ -41,6 +48,29 @@ if (answer == 5){
   textSize(10);
   text ("You get transported into The Last of Us but as a side character, Good luck", 30,200);
 } 
+
+if (answer == 6){
+  textSize(12);
+  text ("You get run over by a truck and get reincarinated as Micheal Jackson", 15,200);
+}
+
+if (answer == 7){
+
+  text ("You don't get runned over by a truck, thats it", 90,200);
+}
+
+if (answer == 8){
+  text ("You have 24 hours before your house splits into two", 60,200);
+}
+
+if (answer == 9){
+  text ("You get bitten by a spider from a different universe", 60,200);
+}
+
+if (answer == 10){
+  textSize(40);
+  text ("No", 180,200);
+}
 // fortunes
   }
   else {
@@ -52,7 +82,7 @@ if (answer == 5){
 };
 
 mouseClicked = function(){
-  answer = round(random(1, 5));
+  answer = round(random(1, 10));
 };
 
 
