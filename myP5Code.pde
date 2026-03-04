@@ -1,9 +1,3 @@
-Preload = function
-
-
-
-
-
 setup = function() {
     size(400, 400);
 };
@@ -26,7 +20,6 @@ ellipse(270,100,45,90); //highlight
   if (mousePressed) {
 
   if (answer == 1) {
-
   text("You will win the lottery but half of it gets taken for taxes", 60,200);
 }
 
@@ -55,7 +48,6 @@ if (answer == 6){
 }
 
 if (answer == 7){
-
   text ("You don't get runned over by a truck, thats it", 90,200);
 }
 
@@ -68,6 +60,7 @@ if (answer == 9){
 }
 
 if (answer == 10){
+  fill(random(255));
   textSize(40);
   text ("No", 180,200);
 }
@@ -75,6 +68,7 @@ if (answer == 10){
   }
   else {
     textSize(17);
+ textFont(createFont("Georgia"));
    text("Click and hold to see your future!", 80, 220);
     
   }
@@ -84,7 +78,3 @@ if (answer == 10){
 mouseClicked = function(){
   answer = round(random(1, 10));
 };
-
-
-
-
